@@ -1,0 +1,11 @@
+Static Obstacle
+Water
+Sky
+Boat/ship
+Row boats
+Paddle board
+Buoy
+Swimmer
+Animal
+Float
+Other
