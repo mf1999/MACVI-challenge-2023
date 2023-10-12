@@ -2,8 +2,6 @@ import json
 import cv2
 import os
 
-from _socket import herror
-
 
 def main():
     img_folder_path = os.path.normpath("./datasets/LARS/train/images")
