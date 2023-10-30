@@ -73,10 +73,10 @@ def main():
                         height = bbox[3] / h
                         print(cat_id, x_center_norm, y_center_norm, width, height)
                         annotation_file = f"./customanns train/{image_detail['file_name'].split('.')[0] + '.txt'}"
-                        with open(annotation_file, 'a') as txt_file:
-                            txt_file.write(f'{cat_id} {x_center_norm} {y_center_norm} {width} {height}\n')
-                    # cv2.imshow("aaa", img)
-                    # cv2.waitKey(0)
+                        #with open(annotation_file, 'a') as txt_file:
+                        #    txt_file.write(f'{cat_id} {x_center_norm} {y_center_norm} {width} {height}\n')
+                    cv2.imshow("aaa", img)
+                    cv2.waitKey(0)
 
 
 if __name__ == '__main__':
